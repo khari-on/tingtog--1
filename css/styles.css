@@ -3,7 +3,7 @@
 
 body{
 
-box-sizing: border-box();
+box-sizing: border-box;
 margin:0;
 padding: 0%;
 background-color: azure;
@@ -34,17 +34,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
 .navHead ul li a{
-    color: rgb(179, 179, 179);
+    color: rgb(207, 204, 204);
     font-size: 1.2rem;
     margin-left: 2rem;
-    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
-    transition: text-decoration-color 500ms;
 }
 
 .navHead ul li a:hover{
     color: azure;
-    text-decoration: underline;
-    text-decoration-color:  rgb(175, 172, 172);
+  text-decoration: underline white;
 
 }
 .navHero{
@@ -71,14 +68,15 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .iphoneImg{
-   height: 140%;
-    width:25%;
+   
+    width:18%;
     position: absolute;
     margin-left: 4rem;
-    padding: 10% 0%;
+    padding:  0%;
     transform: rotate(20deg);
     z-index: 1;
-    top:3%;
+    top: 32%;
+    right:22%
   
 }
 #features{
@@ -113,14 +111,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(141, 141, 143);
 }
 
-@media (max-width:990px) {
-    .iphoneImg{
-        width:60%;
-        position: relative;
-        transform: rotate(0);
-        top:3%;
-    }
-}
+
 
 #testimonials{
   background-color: #ef8172;
@@ -147,38 +138,87 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #pricing{
+    margin: 6% 0 11% 0;
     text-align: center;
-    margin: 5% 8% 14% 8% ;
+}
+.price-card{
+    height: 350px;
+    margin: auto;
    
 }
-
 #pricing h2{
-    font-size:2.6rem;
-    font-weight: 600;
-}
-
-.price-sub-head{
-    font-size: 14px;
-    color: rgb(141, 141, 143);
-
-}
-
-.price-card{
-    padding: 3% 2%;
-    max-height: 510px;
-}
-
-.price-rate{
-    padding: 5% 0;
-    font-size: larger;
-}
-.price-card .card-header{
-    padding: 32% 20%;
-    background-color: #ef8172;
+    font-family:'Montserrat';
+    font-size: 1.6rem;
     
 }
 
+
+.card-header{
+    background-color: #ef8172;
+}
 .card-body{
-    background-color: #fffaff;
+    background-color: rgba(245, 180, 146, 0.238);
+    
 }
 
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 4% 15% ;
+
+}
+
+#cta h3{
+    font-family: 'Montserrat';
+    line-height: 1.6;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    padding-top: 2rem;
+}
+
+#cta button{
+    margin: 7% 4%;
+   padding: 1% 4%;
+}
+#cta button i{
+    color: white;
+    margin-left: 0%;
+}
+
+
+#footer{
+    padding: 10% 0%;
+    text-align: center;
+}
+
+#footer i{
+  color: #fa677d;
+  font-size: 25px;
+  margin-left: 2%;
+  padding: 3% 0%;
+}
+
+#footer p{
+    font-family: 'Montserrat';
+    color:rgba(53, 51, 51, 0.749) ;
+}
+
+
+
+
+
+@media (max-width:990px) {
+    .iphoneImg{
+        width:60%;
+        position: relative;
+        transform: rotate(0);
+        top:3%;
+    }
+}
+
+@media(max-width:993px){
+  .price-card  {
+      margin-bottom: 2%;
+    }
+}
