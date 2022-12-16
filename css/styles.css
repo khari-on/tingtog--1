@@ -34,7 +34,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
 .navHead ul li a{
-    color: rgb(196, 196, 198);
+    color: rgb(179, 179, 179);
     font-size: 1.2rem;
     margin-left: 2rem;
     text-decoration: underline 0.15em rgba(0, 0, 0, 0);
@@ -44,7 +44,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .navHead ul li a:hover{
     color: azure;
     text-decoration: underline;
-    text-decoration-color:  white;
+    text-decoration-color:  rgb(175, 172, 172);
 
 }
 .navHero{
@@ -145,3 +145,40 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     width: 15%;
     margin: 20px 20px 50px
 }
+
+#pricing{
+    text-align: center;
+    margin: 5% 8% 14% 8% ;
+   
+}
+
+#pricing h2{
+    font-size:2.6rem;
+    font-weight: 600;
+}
+
+.price-sub-head{
+    font-size: 14px;
+    color: rgb(141, 141, 143);
+
+}
+
+.price-card{
+    padding: 3% 2%;
+    max-height: 510px;
+}
+
+.price-rate{
+    padding: 5% 0;
+    font-size: larger;
+}
+.price-card .card-header{
+    padding: 32% 20%;
+    background-color: #ef8172;
+    
+}
+
+.card-body{
+    background-color: #fffaff;
+}
+
