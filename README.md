@@ -15,4 +15,4 @@
 <h3>Desktop view:</h3>
 <img src='images/mobile-view.png' alt='screenshot'>
 
-Demo link: <a href=''>Live preview</a>
+Demo link: <a href='https://khari-on.github.io/tingtog--1/'>Live preview</a>
